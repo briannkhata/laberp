@@ -1,0 +1,246 @@
+@import url(autocomplete.css);
+@import url(menubar.css);
+@import url(general.css);
+@import url(popupbox.css);
+@import url(register.css);
+@import url(receipt.css);
+@import url(reports.css);
+@import url(tables.css);
+@import url(thickbox.css);
+@import url(datepicker.css);
+@import url(invoice.css);
+@import url(jquery-ui.structure.css);
+@import url(jquery-ui.theme.css);
+@import url(jquery-ui-timepicker-addon.css);
+
+body
+{
+	margin:0px;
+	padding:0px;
+	background-color:#eeeeee;
+	/*background-image: url("../images/menubar/bg.PNG"); */
+	font-family: Times New Roman,Arial, sans-serif, "Lucida Grande", "Trebuchet MS", Tahoma, Verdana;
+	/*font-family:cursive;*/
+	font-size: 0.9em;
+	font-weight:lighter;
+}
+
+a.none
+{
+	text-decoration:none;
+}
+
+
+#content_area_wrapper
+{
+	position:relative;
+	width:100%;
+	/*background-color:#FFFFFF;*/	
+	background-color:#009049;
+	margin:0px;
+	padding-bottom: 10px;
+	border-bottom:1px solid #CCCCCC;
+	text-align:center;	
+
+}
+
+#content_area
+{
+	position:relative;
+	margin:0 auto;
+	width:875px;
+	text-align:left;
+	
+}
+
+#title_bar
+{
+	position:relative;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:100%;
+	height:50px;
+}
+
+#title
+{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	font-size:30px;
+	font-weight:bold;
+	/*color:#000000;*/
+	color:#eeeeee;
+}	
+
+#page_title
+{
+	margin-top:8px;
+	font-size:30px;
+	font-weight:bold;
+	color:#000000;
+	text-align:center;
+
+}
+
+#page_subtitle
+{
+	margin-top:8px;
+	font-size:16px;
+	font-weight:bold;
+	color:#000000;
+	text-align:center;
+}
+
+#new_button, #print_button
+{
+	position:absolute;
+	bottom:-5px;
+	right:0px;
+}
+
+#spinner
+{
+        float:right;	
+	display:none;
+}
+
+#feedback_bar
+{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:55px;	
+	position:fixed;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	z-index:1;
+	line-height:3.3;
+}
+
+#home_module_list
+{
+	position: relative;
+}
+
+.module_item
+{
+	padding: 10px;
+}
+
+#config_wrapper
+{
+	text-align:center;
+}
+
+#config_info
+{
+	width:93%;
+	margin:0 auto;
+	padding:10px;
+	margin-bottom:30px;
+	margin-top:10px;
+	text-align:left;
+}
+
+#config_info .wide
+{
+	width: 30%;
+}
+
+#footer
+{
+	position:relative;
+	margin-top:25px;
+	margin-bottom:15px;	
+	text-align:center;
+	font-size:11px;
+	/*color:#777777;*/
+	color:#009049;
+	clear:both;
+	
+}
+
+input#search
+{
+	padding: 0px;
+}
+
+select#stock_location
+{
+	border: none;
+}
+
+#required_fields_message
+{
+	font-size:11px;
+	font-style:normal;
+	color:#f33;
+}
+select
+{
+	border-radius:3px;
+}
+.submit_button
+{
+	border-radius:5px;
+}
+input
+{
+	border-radius:3px;
+}
+label
+{
+font-size:12px;
+}
+fieldset
+{
+border-radius:4px;
+}
+textarea
+{
+	border-radius:3px;
+	width:100%;
+	resize: none;
+}
+#select_customer_form input, #select_supplier_form input
+{
+	width: 95%;
+}
+
+input.quantity, input.discount
+{
+	width: 40px;
+}
+a{
+ text-decoration:none;
+ color:#f66;
+ font-size:10px;
+}
+a.rollover img
+{
+	padding: 3px;	
+}
+.table
+{
+ width:100%;
+ border-radius:3px;
+}
+table th
+{
+ font-size:15px;
+
+
+}
+.table tr td
+{
+ 
+ background-color:#bde2bd;
+ border-radius:3px;
+ text-align:center;
+}
+.ok
+{
+ width:50%;
+}
